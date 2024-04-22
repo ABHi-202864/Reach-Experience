@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1350px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -66,6 +66,66 @@ header {
 }
 
 .reach-us a:hover {
-    background: #d8d8d8;
+    background: #bfbfbf;
     transition: 0.1s ease-in-out;
+}
+
+
+
+/* hero sectio */
+
+
+.hero-section {
+    padding: 40px 0px;
+    background-image: url(../image/hero-background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1520px;
+    height: 459px;
+}
+
+.hero-left h4 {
+    font-size: 45px;
+    color: #000000;
+    margin: 75px 0px 50px 0px;
+    width: 54%;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+}
+
+strong {
+    color: grey;
+}
+
+.hero-left h5 {
+    color: #000000;
+    width: 51%;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.hero-left h6 {
+    color: #000000;
+    width: 51%;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.hero-left a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    background: #000000;
+    padding: 6px 70px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-left a:hover {
+    background-color: #000000bd;
 }
