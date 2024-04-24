@@ -9,7 +9,9 @@
     margin: 0 auto;
 }
 
-
+body {
+    background: #f8f8f8;
+}
 
 /* navigation and header to */
 
@@ -127,7 +129,7 @@ strong {
 }
 
 .hero-left a:hover {
-    background-color: #000000bd;
+    background-color: #2f2a2ad9;
 }
 
 
@@ -135,9 +137,8 @@ strong {
 
 
 .produce-section {
-    display: flex;
-    background-color: #f8f8f8;
     padding-top: 40px;
+    position: relative;
 }
 
 .produce h2 {
@@ -156,7 +157,7 @@ strong {
 }
 
 .produce {
-    width: 70%;
+    display: flex;
 }
 
 .produce-right {
@@ -179,6 +180,20 @@ strong {
     transform: scale(1.02);
     transition: 0.5s ease-in-out;
 }
+
+
+.produce-bottom {
+    overflow: hidden;
+    position: absolute;
+    top: 93%;
+}
+
+.produce-bottom img {
+    width: 620px;
+    height: 816px;
+}
+
+
 
 
 
