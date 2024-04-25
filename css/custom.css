@@ -139,6 +139,7 @@ strong {
 .produce-section {
     padding-top: 40px;
     position: relative;
+    margin-bottom: 14%;
 }
 
 .produce h2 {
@@ -161,14 +162,13 @@ strong {
 }
 
 .produce-right {
-    width: 54%;
+    width: 62%;
     overflow: hidden;
 }
 
 .produce-right img {
-    width: 640px;
+    width: 637px;
     height: 478px;
-
 }
 
 .img-hover {
@@ -184,8 +184,10 @@ strong {
 
 .produce-bottom {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     top: 93%;
+    display: inline-block;
+    bottom: 45px;
 }
 
 .produce-bottom img {
@@ -193,13 +195,63 @@ strong {
     height: 816px;
 }
 
+.produce-basketball {
+    position: relative;
+    left: 145px;
+    top: 235px;
+    overflow: hidden;
+    padding-bottom: 70px;
+    display: inline-block;
+}
+
+.produce-basketball img {
+    width: 690px;
+    height: 400px;
+}
 
 
 
 
 
 
+/* home-card section */
 
+
+.home-card-section {
+    background-color: white;
+}
+
+.home-card {
+    display: flex;
+    padding: 6% 0;
+    grid-gap: 0px 46px;
+}
+
+.card-desing {
+    width: 33%;
+}
+
+.card-desing img {
+    width: 315px;
+    height: 330px;
+}
+
+.card-desing h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-desing p {
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 106%;
+    line-height: 24px;
+    margin-top: 15px;
+}
 
 
 
