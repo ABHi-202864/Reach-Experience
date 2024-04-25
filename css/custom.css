@@ -236,6 +236,10 @@ strong {
     height: 330px;
 }
 
+.card-desing .img {
+    overflow: hidden;
+}
+
 .card-desing h4 {
     text-align: center;
     font-size: 30px;
