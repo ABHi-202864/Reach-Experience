@@ -38,17 +38,17 @@ header {
     align-items: center;
 }
 
-.nav ul {
+.nav a {
     list-style: none;
     display: flex;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
-.nav ul a {
+.nav a {
     text-decoration: none;
     font-size: 16px;
     color: #ffffff;
-    margin-left: 35px;
+    margin-left: 0;
     font-family: "Inter", sans-serif;
     letter-spacing: 2px;
 }
@@ -79,10 +79,10 @@ header {
 
 .hero-section {
     padding: 40px 0px;
-    background-image: url(../image/hero-background-image.png);
+    background-image: url(../images/back-img.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1519px;
+    width: 1520px;
     height: 512px;
 }
 
