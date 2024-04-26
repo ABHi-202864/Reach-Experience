@@ -1,7 +1,7 @@
 // Add active class to the current button (highlight it) 
 document.addEventListener("DOMContentLoaded", function () {
     // Get all the navigation links
-    const links = document.querySelectorAll('.nav a');
+    const links = document.querySelectorAll('.btn');
 
     // Add click event listener to each link
     links.forEach(link => {
