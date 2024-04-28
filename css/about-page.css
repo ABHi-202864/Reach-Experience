@@ -9,3 +9,36 @@
     margin: 0 auto;
 }
 
+
+.about-wrep-section {
+    background: url(../images/about-bg-img-re.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.about-wrep-section h1 {
+    font-size: 52px;
+
+    font-family: "Inter", sans-serif;
+    padding-top: calc(80vmax / 10);
+    padding-bottom: calc(80vmax / 10);
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    width: 50%;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.about-content h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    margin: 55px 0px;
+    line-height: 44px;
+}
