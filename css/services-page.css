@@ -8,3 +8,40 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.service-wrep {
+    background: url(../images/service-wrep-img.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding-top: calc(80vmax / 10);
+    padding-bottom: calc(80vmax / 10);
+}
+
+.design-left h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.design-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.design-right {
+    width: 50%;
+}
+
+.design-right h4 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
