@@ -8,3 +8,33 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.experiences-top {
+    background: #000;
+    text-align: center;
+}
+
+.experiences {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.experiences h1 {
+    font-size: 65px;
+    padding-top: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+.experiences p {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 30px;
+    padding: 15px 0px 40px 0px;
+}
