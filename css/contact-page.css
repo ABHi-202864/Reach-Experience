@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.content-wraper {
+    background: url(../images/contect-page-bg.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.head-title h1 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding-top: calc(90vmax / 10);
+    padding-bottom: calc(90vmax / 10);
+}
