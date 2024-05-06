@@ -22,3 +22,53 @@
     padding-top: calc(90vmax / 10);
     padding-bottom: calc(90vmax / 10);
 }
+
+
+/* main content section */
+
+
+#contact-main {
+    display: flex;
+}
+
+#contect-left {
+    width: 50vw;
+}
+
+#contect-left iframe {
+    margin: 20px 0px;
+}
+
+#contect-right {
+    width: 50vw;
+}
+
+#email-box h4 {
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin: 30px 0px 50px 0px;
+}
+
+#email-box a {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#headquarters-box h4 {
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin: 30px 0px 50px 0px;
+}
+
+#headquarters-box address {
+    font-size: 2vw;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
