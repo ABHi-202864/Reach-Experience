@@ -32,7 +32,7 @@ header {
     margin-top: 10px;
 }
 
-.nav {
+#nav {
     display: flex;
     align-items: center;
     margin-top: 38px;
@@ -44,13 +44,13 @@ header {
     align-items: center;
 }
 
-.nav ul {
+#nav ul {
     list-style: none;
     display: flex;
     margin-right: 30px;
 }
 
-.nav a {
+#nav a {
     text-decoration: none;
     font-size: 18px;
     color: #ffffff;
@@ -60,9 +60,9 @@ header {
     transition: 0.5s ease-in-out;
 }
 
-.nav a:hover {
+/* .nav a:hover {
     color: #dedede;
-}
+} */
 
 .hover-line {
     display: inline-block;
@@ -84,7 +84,7 @@ header {
     width: 100%;
 }
 
-.reach-us a {
+#reach-us a {
     padding: 14px 24px;
     text-decoration: none;
     background: #ffffff;
@@ -96,9 +96,13 @@ header {
     transition: 0.1s ease-in-out;
 }
 
-.reach-us a:hover {
+#reach-us a:hover {
     background: #bfbfbf;
     color: #000000;
+}
+
+#menu {
+    display: none;
 }
 
 
@@ -481,3 +485,154 @@ footer p {
 }
 
 /* custom scrollbar close */
+
+/* Responsive Hamburger Menu */
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.icon .bar {
+    background-color: #fff;
+}
+
+.icon #bar1 {
+    transform: translateY(4px) rotate(-45deg);
+}
+
+.icon #bar3 {
+    transform: translateY(-6px) rotate(45deg);
+}
+
+.icon #bar2 {
+    opacity: 0;
+}
+
+.change {
+    background-color: #e50000;
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    z-index: -100;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    #nav {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .hero-section {
+        width: 100vw;
+    }
+
+    .hero-left h4 {
+        font-size: 40px;
+        margin: 50px 0px 35px 0px;
+        width: 60%;
+    }
+
+    .hero-left h5 {
+        width: 62%;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .hero-left h6 {
+        width: 68%;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .hero-left {
+        margin-left: 2rem;
+    }
+
+    .produce {
+        flex-wrap: wrap;
+    }
+
+    .produce h2 {
+        font-size: 45px;
+        margin-left: 50px;
+    }
+
+    .produce p {
+        margin-left: 50px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .produce-bottom img {
+        width: 100vw;
+        height: 82vw;
+    }
+
+    .produce-bottom {
+        position: relative;
+        top: 12px;
+    }
+
+    .img-hover:hover {
+        transform: scale(1);
+        transition: 0.5s ease-in-out;
+    }
+
+    .produce-right img {
+        width: 100vw;
+        height: 478px;
+    }
+
+    .produce-right {
+        width: 100%;
+    }
+
+    .produce-basketball {
+        position: relative;
+        left: 0;
+        top: 18px;
+        padding-bottom: 0;
+    }
+
+    .produce-basketball img {
+        width: 100vw;
+        height: 435px;
+    }
+
+}
