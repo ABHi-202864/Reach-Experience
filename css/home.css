@@ -57,20 +57,30 @@ header {
     margin-left: 25px;
     font-family: "Inter", sans-serif;
     letter-spacing: 2px;
+    transition: 0.5s ease-in-out;
+}
+
+.nav a:hover {
+    color: #dedede;
+}
+
+.hover-line {
     display: inline-block;
     transition: 0.5s ease-in-out;
 }
 
-.nav a::after {
+.hover-line::after {
     content: "";
     width: 0%;
     height: 2px;
     display: block;
     background: #dedede;
     transition: width 0.5s ease-in-out;
+    position: relative;
+    top: 2px;
 }
 
-.nav a:hover:after {
+.hover-line:hover:after {
     width: 100%;
 }
 
@@ -83,12 +93,12 @@ header {
     font-family: "Inter", sans-serif;
     transition: 0.1s;
     display: inline-block;
-    margin-top: 20px;
+    transition: 0.1s ease-in-out;
 }
 
 .reach-us a:hover {
     background: #bfbfbf;
-    transition: 0.1s ease-in-out;
+    color: #000000;
 }
 
 
