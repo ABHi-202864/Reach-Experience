@@ -57,10 +57,21 @@ header {
     margin-left: 25px;
     font-family: "Inter", sans-serif;
     letter-spacing: 2px;
+    display: inline-block;
+    transition: 0.5s ease-in-out;
 }
 
-.active {
-    border-bottom: 1px solid #ffffff;
+.nav a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: #dedede;
+    transition: width 0.5s ease-in-out;
+}
+
+.nav a:hover:after {
+    width: 100%;
 }
 
 .reach-us a {
@@ -71,6 +82,8 @@ header {
     color: #000000;
     font-family: "Inter", sans-serif;
     transition: 0.1s;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .reach-us a:hover {
