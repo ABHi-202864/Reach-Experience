@@ -664,7 +664,7 @@ footer p {
     }
 
     .faq h3 {
-        font-size: 65px;    
+        font-size: 65px;
         margin-left: 4%;
         margin-right: 5px;
     }
@@ -710,8 +710,26 @@ footer p {
     footer a:nth-child(3) {
         padding: 4px 80px;
     }
+}
 
 
+@media only screen and (max-width: 480px) {
 
+    .hero-left h4 {
+        font-size: 22px;
+        margin: 32px 0px 32px 0px;
+        width: 60%;
+    }
 
+    .hero-left h5 {
+        width: 70%;
+        font-size: 17px;
+    }
+
+    .hero-left h6 {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    
 }
