@@ -65,3 +65,42 @@ h1 {
     word-spacing: 2px;
     margin-bottom: 16px;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+
+    .service {
+        margin-left: 2rem;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .design-left h2 {
+        font-size: 20px;
+    }
+
+    .design-right h4 {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .design-right ul li {
+        font-size: 12px;
+    }
+
+    .design-right {
+        width: 60vw;
+    }
+
+    hr {
+        margin-right: 6rem;
+    }
+
+    .design-section {
+        padding-bottom: 0px;
+    }
+
+}
