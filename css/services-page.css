@@ -104,3 +104,40 @@ h1 {
     }
 
 }
+
+
+@media only screen and (max-width: 480px) {
+
+    .logo img {
+        width: 230px;
+        height: 100px;
+        padding: 1.2rem;
+    }
+
+    h1 {
+        font-size: 25px;
+        padding-bottom: calc(30vmax / 10);
+    }
+
+    .design-section {
+        flex-wrap: wrap;
+    }
+
+    .design-left {
+        width: 100vw;
+    }
+
+    .design-right h4 {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .design-right {
+        margin-bottom: 3rem;
+    }
+
+    .design-right ul li {
+        letter-spacing: 1px;
+    }
+
+}
