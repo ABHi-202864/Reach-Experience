@@ -162,3 +162,87 @@
 .gallery-10 {
     padding-top: 1em;
 }
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 768px) {
+
+    .logo img {
+        max-height: 55px;
+        max-width: 200px;
+        margin: 3rem 4rem;
+    }
+
+    .experiences h1 {
+        font-size: 35px;
+    }
+
+    .experiences p {
+        font-size: 16px;
+        word-spacing: 2px;
+        line-height: 20px;
+        padding: 5px 0px 25px 0px;
+    }
+
+    .g-pro {
+        flex-wrap: wrap;
+    }
+
+    .box1 {
+        width: 46%;
+    }
+
+    .gallery-1 img {
+        width: 50vw;
+    }
+
+    .gallery-2 img {
+        width: 50vw;
+    }
+
+    .gallery-3 img {
+        width: 50vw;
+    }
+
+    .gallery-4 img {
+        width: 50vw;
+    }
+
+    .gallery-5 img {
+        width: 50vw;
+    }
+
+    .gallery-6 img {
+        width: 50vw;
+    }
+
+    .gallery-7 img {
+        width: 50vw;
+    }
+
+    .gallery-8 img {
+        width: 50vw;
+    }
+
+    .gallery-9 img {
+        width: 50vw;
+    }
+
+    .gallery-10 img {
+        width: 50vw;
+    }
+
+    footer a:nth-child(3) {
+        padding: 4px 60px;
+        border-radius: 8px;
+    }
+
+    footer p {
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 1px;
+    }
+
+}
