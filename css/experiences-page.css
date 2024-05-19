@@ -249,6 +249,11 @@
 
 @media only screen and (max-width: 480px) {
 
+    .experiences {
+        width: 80%;
+    }
+
+
     .experiences h1 {
         padding-top: 20px;
         font-size: 30px;
