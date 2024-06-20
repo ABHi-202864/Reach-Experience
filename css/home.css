@@ -362,7 +362,6 @@ strong {
 
 .accordion-item.active h2::before {
     content: "-";
-
 }
 
 /* For mobile screens */
@@ -815,5 +814,79 @@ footer p {
         letter-spacing: 1px;
     }
 
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .logo img {
+        width: 245px;
+    }
+
+    .hero-left h4 {
+        margin: 0px 0px 28px 0px;
+    }
+
+    .hero-left h6 {
+        margin-top: 20px;
+    }
+
+    .produce h2 {
+        font-size: 25px;
+        margin-left: 35px;
+    }
+
+    .produce p {
+        margin-left: 35px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .produce-right img {
+        height: 300px;
+    }
+
+    .produce-basketball img {
+        height: 300px;
+    }
+
+    .card-desing {
+        width: 75vw;
+    }
+
+    .card-desing img {
+        width: 240px;
+        height: 300px;
+    }
+
+    .card-desing h4 {
+        font-size: 20px;
+    }
+
+    .card-desing p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .faq h3 {
+        font-size: 45px;
+        padding-bottom: 0rem;
+    }
+
+    .faq {
+        padding: 28px 0px;
+    }
+
+    .accordion-item h2 {
+        font-size: 13px;
+    }
+
+    .brief-section {
+        margin-top: 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 
 }
