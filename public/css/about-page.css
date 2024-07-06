@@ -17,7 +17,7 @@
 
 
 .about-wrep-section {
-    background: url(../images/about-bg-img-re.jpg) no-repeat 0 0;
+    background: url(/assets/about-bg-img-re.jpg) no-repeat 0 0;
     background-size: cover;
 }
 
