@@ -10,7 +10,7 @@
 }
 
 .content-wraper {
-    background: url(../images/contect-page-bg.jpg) no-repeat 0 0;
+    background: url(/assets/contect-page-bg.jpg) no-repeat 0 0;
     background-size: cover;
 }
 
