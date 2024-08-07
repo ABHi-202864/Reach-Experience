@@ -112,7 +112,7 @@ header {
 
 .hero-section {
     padding: 40px 0px;
-    background-image: url(../images/back-img.png);
+    background-image: url(../assets/back-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 1520px;
